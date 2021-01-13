@@ -7,8 +7,10 @@
 
       <main class="flex flex-col w-0 flex-1 overflow-hidden">
         @include('partials.header')
+        <div class="w-full md:max-w-6xl md:mx-auto py-8 px-4 sm:px-6 md:px-8 py-4">
+          @yield('content')
+        </div>
       </main>
-      @yield('content')
     </div>
   </body>
 @endsection
