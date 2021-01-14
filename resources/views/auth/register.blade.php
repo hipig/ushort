@@ -9,7 +9,7 @@
     <div class="bg-white rounded-md shadow-sm my-4 overflow-hidden">
       <div class="flex flex-col">
         <div class="p-12">
-          <x-form action="{{ route('login') }}">
+          <x-form action="{{ route('register') }}">
             <x-form.input label="昵称" name="name" placeholder="请输入昵称"></x-form.input>
             <x-form.input label="邮箱地址" name="email" placeholder="请输入邮箱地址"></x-form.input>
             <x-form.input label="密码" type="password" name="password" placeholder="请输入密码"></x-form.input>

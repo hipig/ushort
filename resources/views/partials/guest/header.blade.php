@@ -11,7 +11,7 @@
         @guest
           <div class="flex items-center flex-col md:flex-row ml-auto space-x-1">
             <a href="{{ route('login') }}" class="inline-flex justify-center py-2 px-4 leading-tight border border-transparent font-medium rounded-md hover:text-gray-900">登录</a>
-            <a href="{{ route('register') }}" class="inline-flex justify-center py-2 px-4 leading-tight border border-indigo-600 font-medium rounded-md text-indigo-600 bg-transparent hover:text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">注册</a>
+            <a href="{{ route('register') }}" class="inline-flex justify-center py-2 px-4 leading-tight border border-indigo-500 font-medium rounded-md text-indigo-500 bg-transparent hover:text-white hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">注册</a>
           </div>
         @endguest
       </div>
