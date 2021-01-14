@@ -4,7 +4,7 @@
       <div class="mb-2 font-medium truncate text-gray-400">{{ $title }}</div>
       <div class="text-4xl text-gray-900 truncate">{{ $count ?? 0 }}</div>
     </div>
-    @if(isset($icon))
+    @if($icon ?? null)
       <div class="text-white bg-indigo-500 rounded-lg p-2">
         {{ $icon }}
       </div>
